@@ -1,0 +1,49 @@
+{
+	"name": "@liene-putnina/eslint-prettier-config-lienep",
+	"version": "1.0.0",
+	"description": "EsLint and Prettier config",
+	"main": "index.js",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"src"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ignore-path .gitignore .",
+		"lint:fix": "eslint --fix"
+	},
+	"peerDependencies": {
+		"eslint": "^8.13.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.4.0",
+		"prettier": "^2.6.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lienelittlebird/eslint-prettier-config-lienep.git"
+	},
+	"keywords": [
+		"config",
+		"lint",
+		"eslint",
+		"eslintconfig",
+		"prettier",
+		"prettier-config",
+		"typescript",
+		"javascript",
+		"react",
+		"jest"
+	],
+	"author": "Liene Putniņa (@lienelittlebird)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lienelittlebird/eslint-prettier-config-lienep/issues"
+	},
+	"homepage": "https://github.com/lienelittlebird/eslint-prettier-config-lienep#readme"
+}
