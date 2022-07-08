@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# build
+build
+
+# webpack
+webpack
+
+# testing
+coverage
+
+# Auto-generated scss typing files
+*.module.scss.d.ts
+
+# misc
+npm-debug.log*
