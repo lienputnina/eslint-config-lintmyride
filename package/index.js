@@ -4,6 +4,8 @@ const react = require('./src/react.js');
 module.exports = {
   extends: [
     'airbnb',
+    'airbnb-typescript',
+    'plugin:react/recommended',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
@@ -31,6 +33,5 @@ module.exports = {
   rules: {
     ...base,
     ...react,
-    'prettier/prettier': 'error',
   },
 };
