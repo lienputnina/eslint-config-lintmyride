@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 20222 Liene Putniņa
 

@@ -1,50 +1,62 @@
-# eslint-prettier-config-lienep
-
-## ESLint and Prettier config for React
-
-> A config for [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), aimed primarily to be used in React projects.
+# eslint-config-prettier-lienep
 
 ## Overview
 
-This configuration extends [airbnb](https://www.npmjs.com/package/eslint-prettier-config-airbnb) ESLint config, with [airbnb/hooks](https://github.com/airbnb/javascript/tree/master/packages/eslint-prettier-config-airbnb#eslint-prettier-config-airbnbhooks) enabled, and Prettier integration via the ESLint [plugin](https://github.com/prettier/eslint-plugin-prettier).
-
-The goal of this configuration is to get code linting and formatting up and running as quickly as possible in a modern development environment, without sacrificing cleanliness and readability, and having to configure ESLint + Prettier from scratch every time.
+This config is aimed at [React](https://reactjs.org/) projects that use [TypeScript](https://typescript-eslint.io/). It extends [airbnb](https://www.npmjs.com/package/eslint-prettier-config-airbnb)  ESLint config, has [Prettier](https://prettier.io/) and React integration. The package gives you a ready-to-use **eslint/prettier** config that you can easily integrate into your project without having to set everything up from scratch.
 
 ## Installation
 
 To install the package, run:
 
 ```shell
-npm install -D eslint-prettier-config-lienep
-yarn add -D eslint-prettier-config-lienep
+npm install -D eslint-config-prettier-lienep
 ```
 
-This will install the shared config, as well as its peer dependencies:
-
-- eslint
-- eslint-prettier-config-airbnb
-- eslint-prettier-config-prettier
-- eslint-plugin-jsx-a11y
-- eslint-plugin-prettier
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- prettier
-
-**NOTE:** if you are on NPM <7, you will need to install these manually:
+or
 
 ```shell
-npx install-peerdeps -D eslint-prettier-config-lienep
+yarn add -D eslint-config-prettier-lienep
 ```
 
-## How to use
-
-- Create an .eslintrc.js file in your project directory and add the package to the "extends" array
-- Run
+After you've installed the **main** package, you need to install its **peer dependencies**. These are needed for the linting and formatting to work properly. Here are the additional packages you need to install in your **React** **TypeScript** project.
 
 ```shell
-npm run lint or yarn lint
+@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 ```
+
+## Usage
+
+Create config files for ESLint ( **.eslintrc.js** ) and Prettier ( **.prettierrc.js** ) and add this config there as seen in the examples below
+
+```js
+// .eslintrc.js
+
+const eslintConfig = require('@liene-putnina/eslint-config-prettier-lienep');
+
+module.exports = {
+  ...eslintConfig,
+  parserOptions: {
+    ...eslintConfig.parserOptions,
+    project: ['./tsconfig.json'],
+    tsconfigRootDir: __dirname,
+  },
+  /*The rules in parserOptions are needed to ensure that ESLint won't lint the files it's
+  not supposed to and will follow the rules layed out in the local TypeScript config */
+};
+```
+
+```js
+// .prettierrc.js
+
+module.exports = {
+    ...require('@liene-putnina/eslint-config-prettier-lienep/src/prettier.js'),
+};
+```
+
+If there are parts of your project you do NOT want to lint or format, add them to **.eslintignore** and **.prettierignore** files respectively.
+
+See the **example** project for a more comprehensive view of the setup and usage.
 
 ## License
 
-Licensed under MIT License.
+Licensed under **MIT** License.

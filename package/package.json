@@ -1,7 +1,7 @@
 {
   "name": "@liene-putnina/eslint-config-prettier-lienep",
   "version": "1.0.0",
-  "description": "ESLint and Prettier config for a React + TypeScript project",
+  "description": "ESLint and Prettier config for a React TypeScript project",
   "main": "index.js",
   "files": [
     "LICENSE",
