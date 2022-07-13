@@ -55,7 +55,7 @@ module.exports = {
 
 If there are parts of your project you do NOT want to lint or format, add them to **.eslintignore** and **.prettierignore** files respectively.
 
-See the **example** project for a more comprehensive view of the setup and usage.
+See the [**example**](https://github.com/lienputnina/eslint-config-prettier-lienep/tree/main/example) project for a more comprehensive view of the setup and usage.
 
 ## License
 
