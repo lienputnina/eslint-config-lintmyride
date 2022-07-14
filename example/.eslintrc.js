@@ -1,4 +1,4 @@
-const eslintConfig = require('@liene-putnina/eslint-config-prettier-lienep');
+const eslintConfig = require('@liene-putnina/eslint-config-lintmyride');
 
 module.exports = {
   ...eslintConfig,

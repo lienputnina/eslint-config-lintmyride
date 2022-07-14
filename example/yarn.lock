@@ -318,8 +318,8 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@liene-putnina/eslint-config-prettier-lienep@../package":
-  version "1.2.6"
+"@liene-putnina/eslint-config-lintmyride@../package":
+  version "1.0.1"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

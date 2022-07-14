@@ -15,7 +15,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@liene-putnina/eslint-config-prettier-lienep": "../package",
+    "@liene-putnina/eslint-config-lintmyride": "../package",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.1",

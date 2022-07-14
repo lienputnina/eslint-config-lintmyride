@@ -1,4 +1,4 @@
-# eslint-config-prettier-lienep
+# eslint-config-lintmyride
 
 ## Overview
 
@@ -9,13 +9,13 @@ This config is aimed at [React](https://reactjs.org/) projects that use [TypeScr
 To install the package, run:
 
 ```shell
-npm install -D eslint-config-prettier-lienep
+npm install -D eslint-config-lintmyride
 ```
 
 or
 
 ```shell
-yarn add -D eslint-config-prettier-lienep
+yarn add -D eslint-config-lintmyride
 ```
 
 After you've installed the **main** package, you need to install its **peer dependencies**. These are needed for the linting and formatting to work properly. Here are the additional packages you need to install in your **React** **TypeScript** project.
@@ -31,7 +31,7 @@ Create config files for ESLint ( **.eslintrc.js** ) and Prettier ( **.prettierrc
 ```js
 // .eslintrc.js
 
-const eslintConfig = require('@liene-putnina/eslint-config-prettier-lienep');
+const eslintConfig = require('@liene-putnina/eslint-config-lintmyride');
 
 module.exports = {
   ...eslintConfig,
@@ -49,13 +49,13 @@ module.exports = {
 // .prettierrc.js
 
 module.exports = {
-    ...require('@liene-putnina/eslint-config-prettier-lienep/src/prettier.js'),
+    ...require('@liene-putnina/eslint-config-lintmyride/src/prettier.js'),
 };
 ```
 
 If there are parts of your project you do NOT want to lint or format, add them to **.eslintignore** and **.prettierignore** files respectively.
 
-See the [**example**](https://github.com/lienputnina/eslint-config-prettier-lienep/tree/main/example) project for a more comprehensive view of the setup and usage.
+See the [**example**](https://github.com/lienputnina/eslint-config-lintmyride/tree/main/example) project for a more comprehensive view of the setup and usage.
 
 ## License
 
