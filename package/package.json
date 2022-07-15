@@ -1,6 +1,6 @@
 {
   "name": "@liene-putnina/eslint-config-lintmyride",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "ESLint and Prettier config for a React TypeScript project",
   "main": "index.js",
   "files": [
@@ -13,26 +13,25 @@
   "peerDependencies": {
     "@types/react": "18.x.x",
     "@types/react-dom": "18.x.x",
-    "@typescript-eslint/parser": "5.x.x",
     "@typescript-eslint/eslint-plugin": "5.x.x",
+    "@typescript-eslint/parser": "5.x.x",
     "eslint": "8.x.x",
     "eslint-config-airbnb": "19.x.x",
     "eslint-config-airbnb-typescript": "17.x.x",
     "eslint-config-prettier": "8.x.x",
     "eslint-import-resolver-typescript": "3.x.x",
     "eslint-plugin-import": "2.x.x",
-    "eslint-plugin-react": "7.x.x",
-    "eslint-plugin-react-hooks": "4.x.x",
     "eslint-plugin-jsx-a11y": "6.x.x",
     "eslint-plugin-prettier": "4.x.x",
-    "react": "18.x.x",
-    "react-dom": "18.x.x",
+    "eslint-plugin-react": "7.x.x",
+    "eslint-plugin-react-hooks": "4.x.x",
     "prettier": "2.x.x",
+    "react-dom": "18.x.x",
     "typescript": "4.x.x"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lienputnina/eslint-config-prettier-lienep.git"
+    "url": "git+https://github.com/lienputnina/eslint-config-lintmyride.git"
   },
   "keywords": [
     "config",
@@ -42,14 +41,13 @@
     "prettier",
     "prettier-config",
     "typescript",
-    "javascript",
-    "react",
-    "jest"
+    "react"
   ],
   "author": "Liene Putniņa (@lienelittlebird)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lienelittlebird/eslint-prettier-config-lienep/issues"
+    "url": "https://github.com/lienputnina/eslint-config-lintmyride.git/issues"
   },
-  "homepage": "https://github.com/lienelittlebird/eslint-prettier-config-lienep#readme"
+  "homepage": "https://github.com/lienputnina/eslint-config-lintmyride.git#readme",
+  "dependencies": {}
 }

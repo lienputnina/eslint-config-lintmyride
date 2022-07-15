@@ -1,15 +1,15 @@
 module.exports = {
   'react/jsx-filename-extension': [
-    'warn',
+    1,
     {
       extensions: ['.jsx', 'tsx'],
     },
   ],
-  'react/jsx-props-no-spreading': 'off',
-  'react/prop-types': 'off',
-  'react/react-in-jsx-scope': 'off',
+  'react/jsx-props-no-spreading': 2,
+  'react/prop-types': 2,
+  'react/react-in-jsx-scope': 0,
   'react/function-component-definition': [
-    'warn',
+    1,
     {
       namedComponents: 'arrow-function',
       unnamedComponents: 'arrow-function',

@@ -34,4 +34,13 @@ module.exports = {
     ...base,
     ...react,
   },
+  overrides: [
+    {
+      files: ['*.+(spec|test).*'],
+      rules: {
+        'react/jsx-props-no-spreading': 0,
+        '@typescript-eslint/no-non-null-assertion': 0,
+      },
+    },
+  ],
 };
