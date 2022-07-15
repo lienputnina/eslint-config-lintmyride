@@ -4,8 +4,6 @@
   "description": "ESLint and Prettier config for a React TypeScript project",
   "main": "index.js",
   "files": [
-    "LICENSE.md",
-    "README.md",
     "index.js",
     "src"
   ],
