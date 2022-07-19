@@ -9,19 +9,19 @@ This config is aimed at [React](https://reactjs.org/) projects that use [TypeScr
 To install the package, run:
 
 ```shell
-npm install -D eslint-config-lintmyride
+npm install -D @liene-putnina/eslint-config-lintmyride
 ```
 
 or
 
 ```shell
-yarn add -D eslint-config-lintmyride
+yarn add -D @liene-putnina/eslint-config-lintmyride
 ```
 
 After you've installed the **main** package, you need to install its **peer dependencies**. These are needed for the linting and formatting to work properly. Here are the additional packages you need to install in your **React** **TypeScript** project.
 
 ```shell
-@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
+@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-prettier prettier @types-react-dom
 ```
 
 ## Usage
