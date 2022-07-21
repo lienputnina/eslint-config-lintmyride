@@ -36,7 +36,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.+(spec|test).*'],
+      files: ['*.+(spec|test|stories).*'],
       rules: {
         'react/jsx-props-no-spreading': 0,
         '@typescript-eslint/no-non-null-assertion': 0,
