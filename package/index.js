@@ -1,4 +1,5 @@
 const base = require('./src/base.js');
+const _import = require('./src/import.js');
 const react = require('./src/react.js');
 
 module.exports = {
@@ -33,6 +34,7 @@ module.exports = {
   rules: {
     ...base,
     ...react,
+    ..._import,
   },
   overrides: [
     {
