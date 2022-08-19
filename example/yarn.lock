@@ -319,7 +319,7 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@liene-putnina/eslint-config-lintmyride@../package":
-  version "1.2.5"
+  version "1.0.8"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
