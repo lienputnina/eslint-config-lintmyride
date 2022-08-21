@@ -10,7 +10,6 @@
   "scripts": {},
   "peerDependencies": {
     "@types/react": "18.x.x",
-    "@types/react-dom": "18.x.x",
     "@typescript-eslint/eslint-plugin": "5.x.x",
     "@typescript-eslint/parser": "5.x.x",
     "eslint": "8.x.x",

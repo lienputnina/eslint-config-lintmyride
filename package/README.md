@@ -21,7 +21,7 @@ yarn add -D @liene-putnina/eslint-config-lintmyride
 After you've installed the **main** package, you need to install its **peer dependencies**. These are needed for the linting and formatting to work properly. Here are the additional packages you need to install in your **React** **TypeScript** project.
 
 ```shell
-@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-prettier prettier @types-react-dom
+@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 ```
 
 ## Usage
