@@ -6,4 +6,18 @@ module.exports = {
   eqeqeq: 2,
   '@typescript-eslint/no-var-requires': 0,
   '@typescript-eslint/no-non-null-assertion': 2,
+  'prefer-destructuring': 0,
+  'import/no-extraneous-dependencies': [
+    'error',
+    {
+      devDependencies: [
+        'test.{ts,tsx}',
+        'test-*.{ts,tsx}',
+        '**/*{.,_}{test,spec}.{ts,tsx}',
+        '**/jest.config.ts',
+        '**/jest.setup.ts',
+      ],
+      optionalDependencies: false,
+    },
+  ],
 };

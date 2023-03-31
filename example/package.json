@@ -15,7 +15,8 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@liene-putnina/eslint-config-lintmyride": "../package",
+    "@liene-putnina/eslint-config-lintmyride": "^1.0.8",
+    "@testing-library/jest-dom": "^5.16.5",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.1",
