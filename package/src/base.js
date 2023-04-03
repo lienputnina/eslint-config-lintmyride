@@ -9,15 +9,6 @@ module.exports = {
   'prefer-destructuring': 0,
   'import/no-extraneous-dependencies': [
     'error',
-    {
-      devDependencies: [
-        'test.{ts,tsx}',
-        'test-*.{ts,tsx}',
-        '**/*{.,_}{test,spec}.{ts,tsx}',
-        '**/jest.config.ts',
-        '**/jest.setup.ts',
-      ],
-      optionalDependencies: false,
-    },
+    { devDependencies: true, peerDependencies: true },
   ],
 };
